@@ -113,8 +113,11 @@ Grade: A
 👨‍💻 Author
 
 Chippala Sree Ranganath
+
 🎓 B.E. in Artificial Intelligence and Machine Learning – MSRIT
+
 🏫 Trained under NxtWave CCBP 4.0 Technologies
+
 🌍 Passionate about AI engineering, clean code, and scalable system design
 
 🔗 GitHub: sreeranga-chippala
