@@ -1,104 +1,67 @@
-📊 Student Performance Analyzer
+Student Performance Analyzer
 
-A simple yet powerful Python project that reads student marks from a CSV file, processes the data, calculates totals, averages, and grades, and generates a clean final report.
+A Python-based tool that reads student marks from a CSV file, processes the data, calculates totals, averages, and grades, and generates a clean text report.
+This project demonstrates practical Python skills such as file handling, data processing, and report generation.
 
-🚀 Features
+Features
 
-Reads student data from a CSV file
+Reads input data from a CSV file
 
-Computes:
+Calculates total marks and average
 
-Total marks
+Assigns grades based on performance
 
-Average marks
+Generates a formatted output report (final_report.txt)
 
-Grade based on performance
+Simple and beginner-friendly codebase
 
-Generates a clean, readable text report
-
-Beginner-friendly and industry-standard code structure
-
-Perfect mini-project for learning Python + File Handling + Data Processing
-
-📁 Project Structure
+Project Structure
 student-performance-analyzer/
 │
-├── data_report_generator.py     # Main Python script
-├── students_report.csv          # Input data file
-├── final_report.txt             # Auto-generated output report
-└── README.md                    # Project documentation
+├── data_report_generator.py     # Main script
+├── students_report.csv          # Input file
+├── final_report.txt             # Generated output
+└── README.md
 
-🧠 How It Works
-
-The Python script reads students_report.csv
-
-For each student, it calculates:
-
-Total = sum of all subjects
-
-Average = total / 3
-
-Grade (A+, A, B+, B, etc.)
-
-The results are written into final_report.txt in a clean format
-
-🏷️ Grade Calculation Logic
-Average Score	Grade
-90–100	A+
-80–89	A
-70–79	B+
-60–69	B
-Below 60	C
-🖥️ Running the Project
-1️⃣ Install Python
-
-Python 3.8+ is recommended.
-
-2️⃣ Run the script
+How to Run
+1. Run the Python script:
 python3 data_report_generator.py
 
+2. Output:
 
-This will generate:
+A file named final_report.txt will be created containing each student's:
 
-final_report.txt
+Name
 
-📝 Sample Output (final_report.txt)
-STUDENT PERFORMANCE REPORT
-----------------------------
+Total Marks
+
+Average
+
+Grade
+
+Sample Output
 Name: Sree
 Total Marks: 262
 Average: 87.33
 Grade: A
 
-Name: Ananya
-Total Marks: 228
-Average: 76.00
-Grade: B+
+Grade Criteria
+Average	Grade
+90–100	A+
+80–89	A
+70–79	B+
+60–69	B
+Below 60	C
+Future Enhancements
 
-🔥 Why This Project Matters
+Add charts for performance visualization
 
-Shows understanding of Python basics
+Export report as PDF
 
-Demonstrates file handling, data processing, and logic building
+Create a web or GUI-based interface
 
-Adds credibility to your portfolio
+Add database integration
 
-Great starting point for more advanced projects
-
-🌟 Future Enhancements
-
-You can extend this project by adding:
-
-Data visualization (Matplotlib)
-
-Exporting final report as PDF
-
-Web interface using Flask or Django
-
-Database storage (SQLite/PostgreSQL)
-
-Emailing the report automatically
-
-🧑‍💻 Author
+Author
 
 Sree Ranganath Chippala
