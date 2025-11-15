@@ -57,8 +57,11 @@ A new file final_report.txt will be created with computed results.
 🧠 Sample Output
 
 Name: Sree
+
 Total Marks: 262
+
 Average: 87.33
+
 Grade: A
 
 🎓 Grade Criteria
