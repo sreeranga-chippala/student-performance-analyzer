@@ -22,7 +22,7 @@ This project demonstrates Python file handling, data processing, modular design,
 | ---------------------------- | ------------------------------------------------ |
 | 📥 CSV Input Handling        | Reads student records from a structured CSV file |
 | 🧮 Automatic Calculations    | Computes total & average marks                   |
-| 🏷️ Grade Assignment Engine  | Assigns A+, A, B+, B, C                          |
+| 🏷️ Grade Assignment Engine  | Assigns A+, A, B+, B, C, Fail                          |
 | 📄 Report Generation         | Outputs a clean, readable text report            |
 | 🧱 Simple, Extensible Design | Easily expandable to ML/analytics use-cases      |
 
@@ -31,9 +31,13 @@ This project demonstrates Python file handling, data processing, modular design,
 
 student-performance-analyzer/
 │
+
 ├── data_report_generator.py   # Core script - processing and report generation
+
 ├── students_report.csv        # Input dataset
+
 ├── final_report.txt           # Auto-generated output report
+
 └── README.md                  # Documentation (this file)
 
 ⚙️ Installation & Setup
@@ -41,6 +45,7 @@ student-performance-analyzer/
 1️⃣ Clone the Repository
 
 git clone https://github.com/sreeranga-chippala/student-performance-analyzer.git
+
 cd student-performance-analyzer
 
 2️⃣ Run the Program
@@ -78,6 +83,7 @@ Grade: A
 
 🧱 Technologies Used
 
+
 🐍 Python 3
 
 💻 VS Code
@@ -88,7 +94,9 @@ Grade: A
 
 🧩 Procedural + modular programming
 
+
 💡 Future Enhancements
+
 
 📊 Add Matplotlib charts
 
