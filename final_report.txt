@@ -1,0 +1,31 @@
+STUDENT PERFORMANCE REPORT
+Generated on: 2025-11-15 09:54:30
+----------------------------
+
+Name: Sree
+Total Marks: 262
+Average: 87.33
+Grade: A
+
+Name: Ananya
+Total Marks: 228
+Average: 76.00
+Grade: B+
+
+Name: Aarav
+Total Marks: 275
+Average: 91.67
+Grade: A+
+
+Name: Diya
+Total Marks: 203
+Average: 67.67
+Grade: B
+
+Name: Siddharth
+Total Marks: 246
+Average: 82.00
+Grade: A
+
+----------------------------
+✅ Report successfully generated!
